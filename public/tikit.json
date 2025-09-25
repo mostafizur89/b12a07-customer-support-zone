@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User cannot log in with correct credentials",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-25T09:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Page Loading Slow",
+    "description": "Dashboard page takes too long to load",
+    "customer": "Bob Smith",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-24T14:20:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Error 500 on Checkout",
+    "description": "Server error appears during checkout",
+    "customer": "Charlie Brown",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-23T11:15:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Password Reset Not Working",
+    "description": "Reset password link is not sent to user email",
+    "customer": "Diana Prince",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-09-22T08:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "UI Bug on Mobile",
+    "description": "Buttons overlapping on mobile devices",
+    "customer": "Ethan Hunt",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2025-09-21T16:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Notification Not Sent",
+    "description": "Users are not receiving notifications",
+    "customer": "Fiona Gallagher",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-20T13:30:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Incorrect Invoice Total",
+    "description": "Invoice shows wrong total amount",
+    "customer": "George Lucas",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-19T10:10:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Search Feature Not Working",
+    "description": "Search returns empty results even when data exists",
+    "customer": "Hannah Montana",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-18T09:55:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Profile Picture Upload Fails",
+    "description": "Users cannot upload profile pictures",
+    "customer": "Ian Somerhalder",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2025-09-17T15:45:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Email Verification Broken",
+    "description": "Verification email link leads to 404 page",
+    "customer": "Julia Roberts",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-16T12:20:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Settings Page Crash",
+    "description": "Settings page crashes on save",
+    "customer": "Kevin Hart",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-15T14:40:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Payment Gateway Timeout",
+    "description": "Payment fails due to gateway timeout",
+    "customer": "Laura Croft",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-09-14T17:05:00Z"
+  }
+]
