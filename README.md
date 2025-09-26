@@ -1,16 +1,36 @@
-# React + Vite
+### ✅ Readme: 
+Create a README file to answer the following question-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ - What is JSX, and why is it used?
+ Ans:  JSX is a syntax extension for JavaScript that looks similar to HTML but is actually used inside JavaScript code and mainly used in React to describe
 
-Currently, two official plugins are available:
+ - What is the difference between State and Props?
+ Ans:  1.prop Short for properties Props are inputs to a component on the other hand state A built-in object that stores data
+ 2. prop Parent component passes it down on the other hand state Defined and controlled inside component
+ 3. prop Read-only but Read + Write (mutable)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - What is the useState hook, and how does it work?
+ Ans:  1.useState is a React Hook that allows you to add state to a functional component.
+2.Normally, functional components don’t have state (they are just functions). useState gives them the ability to remember values between renders.
 
-## React Compiler
+work->
+It creates a state variable (to store data).
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It gives you a setter function (to update that data).
 
-## Expanding the ESLint configuration
+When the setter function is called, React re-renders the component with the updated value.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ - How can you share state between components in React?
+ Ans:   1 Lift State Up
+ 2 Context API
+ 3 State Management Libraries
+
+ - How is event handling done in React?
+ Ans: 1. Basic Concept
+ 2. Example: Click Event
+ 3. Passing Parameters
+ 4. Common React Events
+ 5. Event Object
+ 6. Example in Your Ticket App
+
+---
