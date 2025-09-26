@@ -32,7 +32,7 @@
     "description": "Password reset emails are not being sent properly, leaving customers unable to change their login details.",
     "customer": "Diana Prince",
     "priority": "High Priority",
-    "status": "Pending",
+    "status": "In Progress",
     "createdAt": "2025-09-22"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Profile picture uploads consistently fail with error messages, preventing users from updating their accounts.",
     "customer": "Ian Somerhalder",
     "priority": "Low Priority",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "2025-09-17"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Payments fail due to gateway timeout errors, leaving customers complete purchases on platform.",
     "customer": "Laura Croft",
     "priority": "High Priority",
-    "status": "Pending",
+    "status": "In Progress",
     "createdAt": "2025-09-14"
   }
 ]
