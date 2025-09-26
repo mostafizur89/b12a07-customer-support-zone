@@ -13,13 +13,14 @@ const fetchTikits = async () =>{
   return res.json()
 }
 
-function App({ tikitsData }) {
-
+function App() {
+  // count in progres
   const [tikitCount, setTikitCount] = useState(0)
-
+ 
   const handleClickTikit = () =>{
-    alert(`Complete`);
-    setTikitCount(prev => prev + 1)
+    toast(`In Progress`);
+    setTikitCount(prev => prev + 1);
+
   }
   
   const tikitsPromise = fetchTikits()
@@ -31,10 +32,12 @@ function App({ tikitsData }) {
 
     {/* banner section------> */}
    
-   <Banner></Banner>
+   <Banner tikitCount={tikitCount}></Banner>
 
     <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
-      <CustomerTikits tikitsPromise={tikitsPromise}></CustomerTikits>
+      <CustomerTikits
+      handleClickTikit={handleClickTikit}
+       tikitsPromise={tikitsPromise}></CustomerTikits>
     </Suspense>
 
 
@@ -42,7 +45,7 @@ function App({ tikitsData }) {
 
     <Footer></Footer>
    
-  
+    <ToastContainer/>
     
     </>
   )

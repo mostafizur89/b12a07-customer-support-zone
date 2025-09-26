@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-    <div className="border-2 md:flex justify-between max-w-[1200px] mx-auto">
+    <div className=" md:flex justify-between max-w-[1200px] mx-auto">
 
       <div className='flex justify-center'>
          <a className="btn btn-ghost text-xl font-bold ">CS — Ticket System</a>

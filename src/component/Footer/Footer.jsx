@@ -6,15 +6,15 @@ import userLeter  from "../../assets/Vector.png"
 
 const Footer = () => {
     return (
-            <div className='bg-amber-600 bg-black'>
+            <div className=' bg-black'>
 
       <div className='max-w-[1200px] mx-auto space-y-4  md:flex justify-around p-[80px] '>
 
-        <div className='border-2 gap-2 md:w-1/4 '>
+        <div className=' gap-2 md:w-1/4 '>
          <h2 className=' text-white text-2xl mb-6'>CS — Ticket System</h2>
          <p className='text-[#A1A1AA] space-'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
        </div>
-       <div className='border-2 gap-2 '>
+       <div className=' gap-2 '>
          <h2 className=' text-white text-2xl mb-6'>Company</h2>
           <div className='text-[#A1A1AA] space-y-4'>
             <p>About Us</p>
@@ -22,7 +22,7 @@ const Footer = () => {
            <p>Contact Saled</p>
           </div>
        </div>
-       <div className='border-2 gap-2 space-y-4'>
+       <div className=' gap-2 space-y-4'>
          <h2 className=' text-white text-2xl mb-6'>Services</h2>
           <div className='text-[#A1A1AA] space-y-4'>
             <p>Products & Services</p>
@@ -30,7 +30,7 @@ const Footer = () => {
            <p>Download Apps</p>
           </div>
        </div>
-       <div className='border-2 gap-2 '>
+       <div className=' gap-2 '>
          <h2 className='  text-white text-2xl mb-6'>Information</h2>
          <div className='text-[#A1A1AA] space-y-4'>
            <p>Privacy Policy</p>
@@ -38,7 +38,7 @@ const Footer = () => {
            <p>Join Us</p>
          </div>
        </div>
-       <div className='border-2 '>
+       <div className=' '>
          <h2 className=' text-white text-2xl mb-6'>Social Links</h2>
          <div className='text-[#A1A1AA] space-y-4'>
            <div className='flex gap-1'>
